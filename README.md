@@ -1,6 +1,6 @@
 # User Guide: VFPB for OpenSeesPy
 
-This README serves as the user guide for implementing the Variable Friction Pendulum Bearing (VFPB2Ring) element and the VariableFriction2Ring friction model.
+This README serves as the user guide for implementing the VFPB2Ring element and the VariableFriction2Ring friction model.
 
 ---
 
@@ -36,6 +36,11 @@ ops.frictionModel('VariableFriction2Ring', frnTag, r0, r1, muInSlow, muOutSlow,
 ```
 
 ### Parameter Definitions
+- `r0`: Slider radius.
+- `r1`: Inner region radius.
+- `muInSlow`: Inner-zone friction coefficient (at low velocity).
+- `muOutSlow`: Outer-zone friction coefficient (at low velocity).
+
 The velocity- and pressure-related parameters in `VariableFriction2Ring` are defined consistently with those in **Velocity and Pressure Dependent Friction** in OpenSees.
 
 **Notes:**
