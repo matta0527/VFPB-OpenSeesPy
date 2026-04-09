@@ -63,6 +63,6 @@ ops.element('VFPB2Ring', eleTag, *eleNodes, frnMdlTag, Reff, kInit,
 ```
 
 ### Parameter Definitions
-The `VFPB2Ring` element is developed based on the **Single Friction Pendulum Bearing** element and adopts the same parameter definitions, but additionally passes the absolute displacement to the friction model.
+The `VFPB2Ring` element is developed based on the **Single Friction Pendulum Bearing** element and adopts the same parameter definitions, but additionally transmits the resultant displacement of the bearing to the friction model.
 
 ---
